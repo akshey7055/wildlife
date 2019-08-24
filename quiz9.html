@@ -1,0 +1,110 @@
+<script langauge="javascript">
+var score
+score=0
+</script>
+<html>
+<head>
+<style type="text/css">
+h1
+ {
+font-size:1.5cm;
+font-family:cooper;
+ }
+font.first
+ {
+font-size:0.8cm;
+font-family:impact;
+ }
+p
+ {
+font-size:0.8cm;
+font-family:impact;
+ }
+A{
+    background-color:yellow;
+    border: solid;
+    color:red;
+    padding: 4px 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+Input{
+    background-color:cyan;
+    border: solid;
+    border-color:red;
+    color:black;
+    padding: 6px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body bgcolor="orange">
+<center>
+<h1 align=center>WELCOME TO WILDLIFE QUIZ</h1>
+<font class="first">Let's check how much you know about wildlife.</font>
+<hr size=4 width=25% color=black>
+<img src="cobra.jpg" border=0 width=300 height=200>
+<hr size=2 width=17% color=black>
+<font class="first">GUESS WHO AM I ?</font>
+<hr size=2 width=17% color=black>
+<form name="wild">
+<a href="javascript:submit('I')">
+<input type="button" value="I">
+</a>
+<a href="javascript:submit('G')">
+<input type="button" value="G">
+</a>
+<a href="javascript:submit('N')">
+<input type="button" value="N">
+</a>
+<a href="javascript:submit('C')">
+<input type="button" value="C">
+</a>
+<a href="javascript:submit('R')">
+<input type="button" value="R">
+</a>
+<a href="javascript:submit('A')">
+<input type="button" value="A">
+</a>
+<a href="javascript:submit('B')">
+<input type="button" value="B">
+</a>
+<a href="javascript:submit('O')">
+<input type="button" value="O">
+</a>
+<a href="javascript:submit('K')">
+<input type="button" value="K">
+</a><p>
+<p>Hint:- I am the longest venonmous snake in the world.</p>
+<input type="text" name="animalname" size="25">
+<input type="submit" value="OK" onclick="check()"><p>
+<a href="quiz8.html"><input type="button" class="previous" value="BACK"></a>
+<a href="quiz10.html"><input type="button" class="change" value="NEXT"></a>
+</form>
+<script language="JavaScript">
+function submit(r)
+{
+ document.wild.animalname.value += r
+}
+function check()
+{
+ userans=document.wild.animalname.value;
+{
+rest=userans.localeCompare("KINGCOBRA")
+if(rest==0)
+{
+ alert("Correct!")
+}
+else
+{
+ alert("Try Again")
+}
+}
+}
+</script>
+</body>
+</html>
