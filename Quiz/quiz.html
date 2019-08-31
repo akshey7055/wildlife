@@ -47,34 +47,36 @@ Input{
 <h1>WELCOME TO WILDLIFE QUIZ</h1>
 <font class="first">Let's check how much you know about wildlife.</font>
 <hr size=4 width=25% color=black>
-<img src="sailfish.jpg" border=0 width=300 height=200>
+<img src="../gallery/inland_taipan.jpg" border=0 width=300 height=200>
 <hr size=4 width=15% color=black>
 <font class="first">GUESS WHO AM I ?</font>
 <hr size=4 width=15% color=black>
 <form name="wild">
-<a href="javascript: submit('A')">
-<input type="button" value="A">
+<a href="javascript:submit('D')">
+<input type="button" value="D">
 </a>
-<a href="javascript:submit('F')">
-<input type="button" value="F">
-</a>
-<a href="javascript:submit('L')">
-<input type="button" value="L">
-</a>
-<a href="javascript:submit('H')">
-<input type="button" value="H">
+<a href="javascript:submit('N')">
+<input type="button" value="N">
 </a>
 <a href="javascript:submit('I')">
 <input type="button" value="I">
 </a>
-<a href="javascript:submit('S')">
-<input type="button" value="S">
+<a href="javascript:submit('P')">
+<input type="button" value="P">
+</a>
+<a href="javascript:submit('A')">
+<input type="button" value="A">
+</a>
+<a href="javascript:submit('L')">
+<input type="button" value="L">
+</a>
+<a href="javascript:submit('T')">
+<input type="button" value="T">
 </a><p>
-<p>Hint:- I am the fastest animal in water.</p>
+<p>Hint:- I am the most poisnous snake in the world.</p>
 <input type="text" name="animalname" size="25">
-<input type="submit" value="OK" onclick="check()"><p>
-<a href="quiz5.html"><input type="button" class="previous" value="BACK"></a>
-<a href="quiz7.html"><input type="button" class="change" value="NEXT"></a>
+<input type="submit" value="OK" class="change" onclick="check()"><p>
+<a href="./quiz2.html"><input type="button" value="NEXT"></a>
 </form>
 <script language="JavaScript">
 function submit(r)
@@ -85,7 +87,7 @@ function check()
 {
  userans=document.wild.animalname.value;
 {
-rest=userans.localeCompare("SAILFISH")
+rest=userans.localeCompare("INLANDTAIPAN")
 if(rest==0)
 {
  alert("Correct!")

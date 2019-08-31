@@ -1,0 +1,50 @@
+1).
+config is used as necessary code
+to change username
+git config --global user.name "NAME"
+git config --global user.email "NAME@gmail.com"
+git config --list to show all the details
+to only check particular username or email or anything else
+git config user.(name or mail or anything else)
+clear command is to clear everything on the screen
+3).
+pwd to know the current location of git
+cd- change directory
+cd.. is used to back on a directory
+cd name to enter in a directory
+ls to find the list of items
+git initgit init empty git repository
+4).
+ls -la to see hide files of folder
+git add . to make changes what we made
+git commit -m "This is my first commit"
+5). 
+git log to check the history of commits
+git log --author="Name" to see the commits from a single person only
+git status to check the update on directory
+working copy > staging area > repository
+6).
+nothing
+7).
+git diff to check the differnces between the file
+rm to delete a file
+git rm file name.extention
+8).
+when we rename a file in directory just old file is delete and new file with same contents and new name is made
+9).
+git mv oldfilename.extention to newfilename.extention to rename a file through git
+to move a file
+git mv filename.extention to folder name/new name of ur file
+10)
+git commit -am "to ignore the git add . statement and directly add the file to repository
+11).
+git checkout -- filename.extention to make changes accept by the repository
+12). 
+git reset HEAD filename.extention to reset the change
+first > second
+git checkout commit id first_few_letters --index.hmtl to go back to previous repository without any editing
+13).
+git remote add name_of_project URL of ur repository in github.com to make connection of ur pc with ur github repository
+git push -u Name_of_repository master to push the project on github
+then git bash demands ur username and password
+git push origin master

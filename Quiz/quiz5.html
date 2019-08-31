@@ -47,7 +47,7 @@ Input{
 <h1>WELCOME TO WILDLIFE QUIZ</h1>
 <font class="first">Let's check how much you know about wildlife.</font>
 <hr size=4 width=25% color=black>
-<img src="falcon.jpg" border=0 width=300 height=200>
+<img src="../gallery/gaboon_viper.jpg" border=0 width=300 height=200>
 <hr size=4 width=15% color=black>
 <font class="first">GUESS WHO AM I ?</font>
 <hr size=4 width=15% color=black>
@@ -55,23 +55,14 @@ Input{
 <a href="javascript: submit('A')">
 <input type="button" value="A">
 </a>
-<a href="javascript:submit('G')">
-<input type="button" value="G">
+<a href="javascript:submit('O')">
+<input type="button" value="O">
 </a>
 <a href="javascript:submit('N')">
 <input type="button" value="N">
 </a>
-<a href="javascript:submit('F')">
-<input type="button" value="F">
-</a>
-<a href="javascript:submit('O')">
-<input type="button" value="O">
-</a>
-<a href="javascript:submit('I')">
-<input type="button" value="I">
-</a>
-<a href="javascript:submit('L')">
-<input type="button" value="L">
+<a href="javascript:submit('V')">
+<input type="button" value="V">
 </a>
 <a href="javascript:submit('P')">
 <input type="button" value="P">
@@ -79,18 +70,20 @@ Input{
 <a href="javascript:submit('E')">
 <input type="button" value="E">
 </a>
-<a href="javascript:submit('C')">
-<input type="button" value="C">
+<a href="javascript:submit('B')">
+<input type="button" value="B">
+</a>
+<a href="javascript:submit('G')">
+<input type="button" value="G">
 </a>
 <a href="javascript:submit('R')">
 <input type="button" value="R">
 </a><p>
-<p>Hint:- I am the fastest creature on earth.</p>
+<p>Hint:- I am the heaviest venomous snake and having the longest poison fangs.</p>
 <input type="text" name="animalname" size="25">
 <input type="submit" value="OK" onclick="check()"><p>
-<a href="quiz2.html"><input type="button" class="previous" value="BACK"></a>
-<a href="quiz4.html"><input type="button" class="change" value="NEXT"></a>
-
+<a href="quiz4.html"><input type="button" class="previous" value="BACK"></a>
+<a href="quiz6.html"><input type="button" class="change" value="NEXT"></a>
 </form>
 <script language="JavaScript">
 function submit(r)
@@ -101,7 +94,7 @@ function check()
 {
  userans=document.wild.animalname.value;
 {
-rest=userans.localeCompare("PEREGRINEFALCON")
+rest=userans.localeCompare("GABOONVIPER")
 if(rest==0)
 {
  alert("Correct!")
