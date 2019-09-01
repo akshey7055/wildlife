@@ -8,24 +8,43 @@ padding-right:0.5cm;
 margin:0.5cm;
 text-align:right;
 text-decoration:none;
-font-size:1.2cm;
+font-size:1.1cm;
 background-color:black;
 color:cyan;
 }
+a:hover{background-color:red;}
 body
  {
-background-image:url("../gallery/grass.jpg");
+background-color:black;
  }
+@media only screen and (max-width:1000px)
+{
+	#links
+		{
+		 margin: 0 auto; 
+         display:inline-block;
+		 padding: 0;
+		 overflow:hidden;
+		 display:flex;
+		 width:100%;
+		}
+	center > a
+		{
+		padding:14px;
+		display:block;
+		text-align:center;
+		}
+}
+
 </style>
 </head>
 <body>
-<center>
+<center id="links">
 <a href="./a3.html" target="win1">Home</a>
  <a href="../gallery/tables.html" target="win1">Gallery</a>
  <a href="../endangered_species/endangered_species.html" target="win1">Endangered Species</a>
  <a href="../quiz/quiz.html" target="win1">Quiz</a>
-
- <a href="../contact_us/contact_us.html" target="win1">Contact Us</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdPhfuXD1t1lOCAK3UmMtD8X69FnLef-1hC0FZzAvqjyZXklQ/viewform?usp=sf_link" target="win1">Feedback</a>
 </center>
 </body>
 </html>
